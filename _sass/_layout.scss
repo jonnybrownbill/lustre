@@ -102,12 +102,12 @@
 }
 
 .slick-dots li button:before {
-    color: white !important;
+    color: $brand-color !important;
     opacity: 0.5 !important;
 }
 
 .slick-dots li.slick-active button:before {
-    color: $tile-bgcolor !important;
+    color: $brand-color !important;
     opacity: 1 !important;
 }
 
@@ -205,7 +205,7 @@
 }
 
 .site-header-menu-button {
-/*   transform: rotate(180deg); */
+  transform: rotate(180deg);
   float: right;
   img { 
     width: 64px;
@@ -483,7 +483,7 @@ Hero images on audio guide stop pages
 .post-hero-image-container {
     margin-bottom: 0.5em;
     background-color: $background-darker;
-    border-radius: 5px;
+    // border-radius: 5px;
 }
 
 .post-hero-image {
@@ -637,7 +637,7 @@ Audio Player Styling
     height: $player-button-size;
     background: url('../img/icons/button_play.svg');
     background-size: 44px;
-    border: 2px solid #aaaaaa !important;
+    border: 2px solid $brand-color !important;
     border-radius: 32px !important;
     &:hover {
         border-color: $player-bgcolor !important;
