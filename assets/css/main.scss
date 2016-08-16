@@ -17,12 +17,13 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $text-color:       	#000000;
-// $background-hr:		#383838;
 $background-color: 	#FFFFFF;
 $brand-color:	   	#9A8B7F;
 $background-darker: lighten($brand-color, 20%);
 $anchor-hover-color:	lighten($brand-color, 30%);
 $background-hr:     lighten($brand-color, 30%);
+
+$caption-size: 14px;
 
 $player-now-playing-size:   16px;
 $player-height:		64px;

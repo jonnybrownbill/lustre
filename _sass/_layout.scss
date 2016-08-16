@@ -197,24 +197,22 @@
     width: 64px;
     height: 64px;
     padding: 16px 16px;
-    transition: 0.3s;
-    &:hover, &:active, &:focus {
-      background-color: lighten($tile-bgcolor, 10%);
-    }
+    transition: 0.5s;
+    &:active { background-color: lighten($tile-bgcolor, 10%); }
   }
 }
 
 .site-header-menu-button {
-  transform: rotate(180deg);
   float: right;
   img { 
     width: 64px;
     height: 64px;
     padding: 16px 16px;
-    transition: 0.3s;
-    &:hover, &:active, &:focus {
-      background-color: lighten($tile-bgcolor, 10%);
-    }
+    transition: 0.5s;
+    &:active { background-color: lighten($tile-bgcolor, 10%); }
+    // &:hover, &:active, &:focus {
+    //  background-color: lighten($tile-bgcolor, 10%);
+    //}
   }
 }
 
@@ -482,7 +480,7 @@ Hero images on audio guide stop pages
 
 .post-hero-image-container {
     margin-bottom: 0.5em;
-    background-color: $background-darker;
+    //background-color: $background-darker;
     // border-radius: 5px;
 }
 
@@ -508,6 +506,11 @@ Hero images on audio guide stop pages
     @include media-query($on-laptop) {
         display: none !important;
     }
+}
+
+
+.slide__caption {
+    font-size: $caption-size;
 }
 
 /*********************************************
