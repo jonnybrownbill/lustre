@@ -9,13 +9,9 @@
 title: Lustre exhibition audio guide
 email: 
 description: A web-based audio guide for the Lustre exhibition.
-baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://lustre.guide" # the base hostname & protocol for your site
 # baseurl: "/lustre" # the subpath of your site, e.g. /blog
 # url: "http://jonnybrownbill.github.io/lustre" # the base hostname & protocol for your site
-=======
-# baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://lustre.guide" # the base hostname & protocol for your site
 audio_path: "/audio/"
 episode_hero_path: "/assets/img/stops/"
 logo: "/assets/img/logo/audio-guide.png"
