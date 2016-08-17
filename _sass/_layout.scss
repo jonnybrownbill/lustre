@@ -511,7 +511,18 @@ Hero images on audio guide stop pages
 
 .slide__caption {
     font-size: $caption-size;
+    line-height: $caption-size;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    text-align: center;
+    p {
+        padding-top: $caption-size / 2;
+        padding-bottom: $caption-size / 2;
+        margin-bottom: 0;
+    }
 }
+
 
 /*********************************************
 Audio Player Styling
