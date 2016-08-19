@@ -8,17 +8,17 @@
 # Site settings
 title: Lustre exhibition audio guide
 email: 
-description: A web-based audio guide for the Lustre exhibition.
+description: A web-based audio trail for the Lustre exhibition.
 url: "http://lustre.guide" # the base hostname & protocol for your site
 # baseurl: "/lustre" # the subpath of your site, e.g. /blog
 # url: "http://jonnybrownbill.github.io/lustre" # the base hostname & protocol for your site
 audio_path: "/audio/"
 episode_hero_path: "/assets/img/stops/"
-logo: "/assets/img/logo/audio-guide.png"
-# twitter_username: acmilabs
+logo: "/assets/img/logo/audio-trail.png"
+twitter_username: immigration_mv
 # github_username:  acmilabs
 menu_heading: "Select another stop"
-index_page_text: "Select an audio guide stop to begin."
+index_page_text: "Select an audio trail stop."
 headphones_icon_color: "/assets/img/icons/headphones-dark.png"
 headphones_icon_light: "/assets/img/icons/headphones-light.png"
 

@@ -2,9 +2,9 @@
 layout: connected
 permalink: /connected/
 type:
-title: WiFi Connected
+title: Wi-Fi Connected
 ---
 
-You have successfully connected to the WiFi.
+You have successfully connected to the Lustre Wi-Fi.
 
-<a href="../welcome/" target="_system">Launch Audio Guide</a>
+<a href="../welcome/" target="_system">Launch Audio Trail</a>

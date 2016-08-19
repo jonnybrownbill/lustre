@@ -15,18 +15,4 @@ layout: master
         </a>
       </li>{% endif %}{% endfor %}
   </ul>
-
-<!--
-
-For reference: This is a list of all the stops and titles in this audio guide
-
-{% assign pages = site.pages | sort: 'page_rank' %}
-    {% for my_page in pages %}{% if (my_page.section_title != null) and my_page.type == 'stop' %}
-Stop #: {{ my_page.stop_id }}
-Section Title: {{ my_page.section_title }}
-Title: {{ my_page.title }}
-      {% endif %}{% endfor %}
-
--->
-
 </div>
