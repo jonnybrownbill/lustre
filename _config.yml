@@ -18,7 +18,7 @@ logo: "/assets/img/logo/audio-trail.png"
 twitter_username: immigration_mv
 # github_username:  acmilabs
 menu_heading: "Select another stop"
-index_page_text: "Select an audio trail stop."
+index_page_text: "Select an audio trail stop"
 headphones_icon_color: "/assets/img/icons/headphones-dark.png"
 headphones_icon_light: "/assets/img/icons/headphones-light.png"
 
